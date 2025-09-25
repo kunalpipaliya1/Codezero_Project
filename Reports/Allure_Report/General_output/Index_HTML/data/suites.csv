@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Sep 24 18:15:45 IST 2025","Wed Sep 24 18:15:54 IST 2025","9219","Project_2_Perpetuals_QA_Testnet.Test","test_6_perps_collateral","TestPoolCreation","","","test_6_perps_collateral",""

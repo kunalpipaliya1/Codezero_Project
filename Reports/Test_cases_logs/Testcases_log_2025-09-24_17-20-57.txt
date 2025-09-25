@@ -1,0 +1,58 @@
+2025-09-24 17:20:57,098 - INFO - ✅ 
+ ---- Running Test Iteration: 1 ----
+
+2025-09-24 17:20:57,098 - INFO - ✅ 
+ ---- Running Selected Tests ----
+
+2025-09-24 17:20:57,341 - INFO - ✅ ==== Test 2: test_2_perps_long_position checking starting ====
+2025-09-24 17:20:57,341 - INFO - ✅ ==== Test 2: test_2_perps_long_position checking Completed ====
+2025-09-24 17:21:01,421 - INFO - ✅ Opened login URL -> https://qa-perps.dexlyn.com/ETH_USD
+2025-09-24 17:21:01,425 - INFO - ✅ Total windows: ['9F58A31D3D1D3DC420CC70F781ACA224', 'BC0C214B3E1F88ACD2F6A7D35FBF839B']
+2025-09-24 17:21:03,903 - INFO - ✅ 👉 Trying to click locator: //*[@id='create-next-btn']
+2025-09-24 17:21:03,994 - INFO - ✅ 👉 Trying to click locator: //*[@id='root']/div/div[1]/div/div[2]/div/div[2]/button
+2025-09-24 17:21:05,878 - INFO - ✅ Closed all tab and continuing with main tab
+2025-09-24 17:21:08,427 - INFO - ✅ Wallet connect button clicked (Selenium)
+2025-09-24 17:21:08,427 - INFO - ✅ Connected wallet with 1st attempt
+2025-09-24 17:21:08,428 - INFO - ✅ ==== Wallet connection checking process started ====
+2025-09-24 17:21:08,937 - INFO - ✅ Switched to wallet window
+2025-09-24 17:21:09,957 - INFO - ✅ Confirm clicked
+2025-09-24 17:21:09,965 - INFO - ✅ Switched back to main window. Title: 4,185.70 | ETH-USD | Dexlyn Perps
+2025-09-24 17:21:09,965 - INFO - ✅ ==== Wallet connection checking process completed ====
+2025-09-24 17:21:09,965 - INFO - ✅ Wallet setup complete for session
+2025-09-24 17:21:12,495 - INFO - ✅ Transaction_hash: 0xfda...893a0
+2025-09-24 17:21:12,496 - INFO - ✅ Valid Hex: 0xfda...893a0
+2025-09-24 17:21:19,291 - INFO - ✅ Current_market_price_value: 0.82067
+2025-09-24 17:21:19,291 - INFO - ✅ Index_Price_value: 0.82069
+2025-09-24 17:21:19,291 - INFO - ✅ Funding_Rate_per_hours_value: -0.0005%/hr
+2025-09-24 17:21:19,291 - INFO - ✅ Market_Skew_value: -11.29K
+2025-09-24 17:21:19,453 - INFO - ✅ Before proceed check market value
+2025-09-24 17:21:22,609 - INFO - ✅ Position size greater then > 300
+2025-09-24 17:21:24,611 - INFO - ✅ SL Price start
+2025-09-24 17:21:24,681 - INFO - ✅ Negative case validated actual text from xpath msg is: Stop Loss must be above 0.80296
+2025-09-24 17:21:24,837 - INFO - ✅ TP Price start exceed > 900%
+2025-09-24 17:21:24,906 - INFO - ✅ Tp Price entered at 901
+2025-09-24 17:21:24,920 - INFO - ✅ Negative case validated actual text from xpath msg is: Take Profit percentage cannot exceed 900%
+2025-09-24 17:21:24,921 - INFO - ✅ TP Price start < 0
+2025-09-24 17:21:25,000 - INFO - ✅ opimzized: Take Profit must be above 0.82068
+2025-09-24 17:21:25,000 - INFO - ✅ Negative case validated actual text from xpath msg is: Take Profit must be above 0.82068
+2025-09-24 17:21:25,001 - INFO - ✅ TP Price start with current value
+2025-09-24 17:21:25,115 - INFO - ✅ ==== Wallet connection checking process started ====
+2025-09-24 17:21:26,126 - INFO - ✅ Switched to wallet window
+2025-09-24 17:21:28,616 - INFO - ✅ Confirm clicked
+2025-09-24 17:21:28,621 - INFO - ✅ Switched back to main window. Title: 0.82068 | ADA-USDT | Dexlyn Perps
+2025-09-24 17:21:28,621 - INFO - ✅ ==== Wallet connection checking process completed ====
+2025-09-24 17:21:28,622 - INFO - ✅ ==== Transaction Validation started ====
+2025-09-24 17:21:31,553 - INFO - ✅ Transaction validation element is visible
+2025-09-24 17:21:31,578 - INFO - ✅ Supra_scan_href_address: View in Explorer -> https://testnet.suprascan.io/tx/0x5ddc987632335f568f77846acc918345d380026e0256555adbba32294b7ca7ae/f
+2025-09-24 17:21:31,597 - INFO - ℹ️ Transaction status: Transaction submitted
+2025-09-24 17:21:34,752 - INFO - ✅ After switch to supra scan check title: SupraScan | Tx Details
+2025-09-24 17:21:34,766 - INFO - ✅ Success Transaction: Executed successfully
+2025-09-24 17:21:34,795 - INFO - ✅ Sender: 0xfda...893a0 -> https://testnet.suprascan.io/address/0xfda11563aa2191592c113a75d2347bd6b738536de1cb43f7aff939ef786893a0/f?tab=transactions
+2025-09-24 17:21:35,165 - INFO - ✅ Recipient: 0xe20...c7893 -> https://testnet.suprascan.io/address/0xe20ad8ef9e1359af9660da6cc73f5ac092cc2d4e5a5f81101c07e938f33c7893/f?tab=transactions
+2025-09-24 17:21:35,293 - INFO - ✅ ==== Transaction Validation completed ====
+2025-09-24 17:21:35,295 - INFO - ✅ 📎 Logs attached to Allure for test: test_2_perps_long_position
+2025-09-24 17:21:35,485 - INFO - ✅ Recording finalized: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_17-20-57.avi
+2025-09-24 17:21:35,489 - INFO - ✅ 🎥 Video saved: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_17-20-57.mp4
+2025-09-24 17:21:35,557 - INFO - ✅ 
+ ---- Sending Email ----
+

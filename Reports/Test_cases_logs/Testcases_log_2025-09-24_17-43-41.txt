@@ -1,0 +1,45 @@
+2025-09-24 17:43:41,143 - INFO - ✅ 
+ ---- Running Test Iteration: 1 ----
+
+2025-09-24 17:43:41,143 - INFO - ✅ 
+ ---- Running Selected Tests ----
+
+2025-09-24 17:43:41,435 - INFO - ✅ ==== Test 6: test_6_perps_collateral checking starting ====
+2025-09-24 17:43:41,436 - INFO - ✅ ==== Test 6: test_6_perps_collateral checking Completed ====
+2025-09-24 17:43:45,461 - INFO - ✅ Opened login URL -> https://qa-perps.dexlyn.com/ETH_USD
+2025-09-24 17:43:45,466 - INFO - ✅ Total windows: ['77D988BD5601B673E03FCF46B99A2C54', '645500907BE36280B23AD9C48CE8A02E']
+2025-09-24 17:43:48,148 - INFO - ✅ 👉 Trying to click locator: //*[@id='create-next-btn']
+2025-09-24 17:43:48,253 - INFO - ✅ 👉 Trying to click locator: //*[@id='root']/div/div[1]/div/div[2]/div/div[2]/button
+2025-09-24 17:43:50,210 - INFO - ✅ Closed all tab and continuing with main tab
+2025-09-24 17:43:52,769 - INFO - ✅ Wallet connect button clicked (Selenium)
+2025-09-24 17:43:52,770 - INFO - ✅ Connected wallet with 1st attempt
+2025-09-24 17:43:52,770 - INFO - ✅ ==== Wallet connection checking process started ====
+2025-09-24 17:43:53,276 - INFO - ✅ Switched to wallet window
+2025-09-24 17:43:54,388 - INFO - ✅ Confirm clicked
+2025-09-24 17:43:54,398 - INFO - ✅ Switched back to main window. Title: 4,180.36 | ETH-USD | Dexlyn Perps
+2025-09-24 17:43:54,399 - INFO - ✅ ==== Wallet connection checking process completed ====
+2025-09-24 17:43:54,399 - INFO - ✅ Wallet setup complete for session
+2025-09-24 17:43:56,974 - INFO - ✅ Transaction_hash: 0xfda...893a0
+2025-09-24 17:43:56,975 - INFO - ✅ Valid Hex: 0xfda...893a0
+2025-09-24 17:43:57,577 - INFO - ✅ Current_market_price_value: 0.82198
+2025-09-24 17:43:57,577 - INFO - ✅ Index_Price_value: 0.82200
+2025-09-24 17:43:57,577 - INFO - ✅ Funding_Rate_per_hours_value: -0.0005%/hr
+2025-09-24 17:43:57,577 - INFO - ✅ Market_Skew_value: -9.72K
+2025-09-24 17:43:57,858 - INFO - ✅ Before proceed check market value
+2025-09-24 17:44:00,408 - INFO - ✅ Position size greater then > 300
+2025-09-24 17:44:02,410 - INFO - ✅ SL Price start
+2025-09-24 17:44:02,511 - INFO - ✅ Negative case validated actual text from xpath msg is: Stop Loss must be above 0.80429
+2025-09-24 17:44:02,578 - INFO - ✅ TP Price start exceed > 900%
+2025-09-24 17:44:02,671 - INFO - ✅ Tp Price entered at 901
+2025-09-24 17:44:02,688 - INFO - ✅ Negative case validated actual text from xpath msg is: Take Profit percentage cannot exceed 900%
+2025-09-24 17:44:02,689 - INFO - ✅ TP Price start < 0
+2025-09-24 17:44:02,914 - INFO - ✅ opimzized: Take Profit must be above 0.82225
+2025-09-24 17:44:02,914 - INFO - ✅ Negative case validated actual text from xpath msg is: Take Profit must be above 0.82225
+2025-09-24 17:44:02,914 - INFO - ✅ TP Price start with current value
+2025-09-24 17:44:03,064 - INFO - ✅ ==== Wallet connection checking process started ====
+2025-09-24 17:44:13,138 - INFO - ✅ 📎 Logs attached to Allure for test: test_6_perps_collateral
+2025-09-24 17:44:13,388 - INFO - ✅ Recording finalized: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_17-43-41.avi
+2025-09-24 17:44:13,392 - INFO - ✅ 🎥 Video saved: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_17-43-41.mp4
+2025-09-24 17:44:13,493 - INFO - ✅ 
+ ---- Sending Email ----
+

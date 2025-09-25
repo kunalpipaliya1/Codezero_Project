@@ -1,0 +1,21 @@
+[32mINFO    [0m TestLogger:conftest.py:187 ✅ Opened login URL -> https://testnet-perps.dexlyn.com/ETH_USD
+[32mINFO    [0m TestLogger:conftest.py:188 ✅ Total windows: ['CB8769611E9185DC8276BE83CFE4C68E', 'D4B01245CDDF8430800229CB676846AE']
+[32mINFO    [0m TestLogger:test_page.py:110 ✅ 👉 Trying to click locator: //*[@id='create-next-btn']
+[32mINFO    [0m TestLogger:test_page.py:110 ✅ 👉 Trying to click locator: //*[@id='root']/div/div[1]/div/div[2]/div/div[2]/button
+[32mINFO    [0m TestLogger:conftest.py:236 ✅ Closed all tab and continuing with main tab
+[32mINFO    [0m TestLogger:test_page.py:186 ✅ Wallet connect button clicked (Selenium)
+[32mINFO    [0m TestLogger:conftest.py:267 ✅ Connected wallet with 1st attempt
+[32mINFO    [0m TestLogger:wallet_connection.py:14 ✅ ==== Wallet connection checking process started ====
+[32mINFO    [0m TestLogger:wallet_connection.py:30 ✅ Switched to wallet window
+[32mINFO    [0m TestLogger:wallet_connection.py:40 ✅ Confirm clicked
+[32mINFO    [0m TestLogger:wallet_connection.py:69 ✅ Switched back to main window. Title: 4,185.10 | ETH-USD | Dexlyn Perps
+[32mINFO    [0m TestLogger:wallet_connection.py:73 ✅ ==== Wallet connection checking process completed ====
+[32mINFO    [0m TestLogger:conftest.py:276 ✅ Wallet setup complete for session
+[32mINFO    [0m TestLogger:conftest.py:282 ✅ Transaction_hash: 0xfda...893a0
+[32mINFO    [0m TestLogger:conftest.py:289 ✅ Valid Hex: 0xfda...893a0
+[1m[31mERROR   [0m TestLogger:StaticUtils.py:29 [1/3] Retrying click on '//*[@class='text-xs sm:text-sm']' due to: Message: 
+[1m[31mERROR   [0m TestLogger:StaticUtils.py:29 [2/3] Retrying click on '//*[@class='text-xs sm:text-sm']' due to: Message: 
+[1m[31mERROR   [0m TestLogger:StaticUtils.py:29 [3/3] Retrying click on '//*[@class='text-xs sm:text-sm']' due to: Message: 
+[1m[31mERROR   [0m TestLogger:StaticUtils.py:34 ❌ Failed to click on element after 3 retries: //*[@class='text-xs sm:text-sm']
+[32mINFO    [0m TestLogger:conftest.py:177 ✅ 📎 Logs attached to Allure for test: test_6_perps_collateral
+[32mINFO    [0m TestLogger:conftest.py:69 ✅ 🎥 Video saved: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_18-15-30.mp4

@@ -1,0 +1,34 @@
+2025-09-24 17:20:14,015 - INFO - ✅ 
+ ---- Running Test Iteration: 1 ----
+
+2025-09-24 17:20:14,015 - INFO - ✅ 
+ ---- Running Selected Tests ----
+
+2025-09-24 17:20:14,277 - INFO - ✅ ==== Test 2: test_2_perps_long_position checking starting ====
+2025-09-24 17:20:14,277 - INFO - ✅ ==== Test 2: test_2_perps_long_position checking Completed ====
+2025-09-24 17:20:18,276 - INFO - ✅ Opened login URL -> https://qa-perps.dexlyn.com/ETH_USD
+2025-09-24 17:20:18,280 - INFO - ✅ Total windows: ['CE460E03F8E1C1E1EE60FF539CD2D1A9', 'E4568D941F8ADADA9B94552CBD0B2FC4']
+2025-09-24 17:20:20,748 - INFO - ✅ 👉 Trying to click locator: //*[@id='create-next-btn']
+2025-09-24 17:20:20,837 - INFO - ✅ 👉 Trying to click locator: //*[@id='root']/div/div[1]/div/div[2]/div/div[2]/button
+2025-09-24 17:20:22,687 - INFO - ✅ Closed all tab and continuing with main tab
+2025-09-24 17:20:25,239 - INFO - ✅ Wallet connect button clicked (Selenium)
+2025-09-24 17:20:25,239 - INFO - ✅ Connected wallet with 1st attempt
+2025-09-24 17:20:25,239 - INFO - ✅ ==== Wallet connection checking process started ====
+2025-09-24 17:20:25,748 - INFO - ✅ Switched to wallet window
+2025-09-24 17:20:26,787 - INFO - ✅ Confirm clicked
+2025-09-24 17:20:26,792 - INFO - ✅ Switched back to main window. Title: 4,185.86 | ETH-USD | Dexlyn Perps
+2025-09-24 17:20:26,792 - INFO - ✅ ==== Wallet connection checking process completed ====
+2025-09-24 17:20:26,792 - INFO - ✅ Wallet setup complete for session
+2025-09-24 17:20:29,320 - INFO - ✅ Transaction_hash: 0xfda...893a0
+2025-09-24 17:20:29,320 - INFO - ✅ Valid Hex: 0xfda...893a0
+2025-09-24 17:20:29,845 - INFO - ✅ Current_market_price_value: 0.82099
+2025-09-24 17:20:29,845 - INFO - ✅ Index_Price_value: 0.82101
+2025-09-24 17:20:29,845 - INFO - ✅ Funding_Rate_per_hours_value: -0.0005%/hr
+2025-09-24 17:20:29,845 - INFO - ✅ Market_Skew_value: -11.29K
+2025-09-24 17:20:29,989 - INFO - ✅ Before proceed check market value
+2025-09-24 17:20:32,175 - INFO - ✅ 📎 Logs attached to Allure for test: test_2_perps_long_position
+2025-09-24 17:20:32,330 - INFO - ✅ Recording finalized: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_17-20-14.avi
+2025-09-24 17:20:32,335 - INFO - ✅ 🎥 Video saved: /Kunal_Pipaliya/Project_2_Perpetuals_QA_Testnet/Video_Recording/test_2025-09-24_17-20-14.mp4
+2025-09-24 17:20:32,477 - INFO - ✅ 
+ ---- Sending Email ----
+
