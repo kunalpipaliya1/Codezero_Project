@@ -1,0 +1,57 @@
+
+# Configure Git User
+git config --global user.name "kunalpipaliya1"
+git config --global user.email "kunal.pipaliya92@gmail.com"
+git config --list
+
+cd /Kunal_Pipaliya/Project_1_CLMM_QA_Testnet         # Go to your project folder
+git init                        # Initialize Git repository
+git add .                        # stage all files
+git commit -m "Initial commit"   # first commit
+git branch -M main               # Rename branch to main
+git remote add origin https://github.com/kunalpipaliya1/Codezero_Project.git # Add GitHub remote
+git remote set-url origin https://github.com/kunalpipaliya1/Codezero_Project.git # If remote already exists, not mandatory to check
+
+
+git add .                       # add changed/new files
+git commit -m "Initial commit after cleanup" # Commit changes
+git push -u origin main          # Push to GitHub 	# -u sets upstream branch so future git push works without extra args.
+git push                        # push to origin main
+
+git push --force origin main
+
+# Add & commit new changes later
+git add .
+git commit -m "Meaningful message"
+git push
+
+# git pull --rebase origin main
+
+git pull --rebase origin main
+
+git push
+
+# Remove large files from repo - Use for files >100 MB to prevent push errors.
+git rm --cached "path/to/large_file"
+git commit -m "Remove large file exceeding GitHub limit"
+git push --force origin main
+
+git checkout -b Github-Code-Push-Procedure	# create new branch
+git push -u origin Github-Code-Push-Procedure   # Push the new branch to GitHub
+git checkout main	# To go back to main branch
+git checkout Github-Code-Push-Procedure		To switch to your new branch
+git branch -m old-branch-name new-branch-name  # rename the branch
+git branch -m main development	# example how can rename
+git push -u origin development	# after the rename again push to github
+
+
+# Useful Git commands
+
+Check status: git status
+View commit history: git log --oneline --graph --decorate
+Change remote URL: git remote set-url origin <new-url>
+Remove file from repo: git rm <file> && git commit -m "..."
+Force push: git push --force origin main
+Stage all files	git add .
+Commit changes	git commit -m "message"
+
